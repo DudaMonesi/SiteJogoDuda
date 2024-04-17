@@ -1,0 +1,135 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'classica';
+    src: url('../fonts/Classica-Bold.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'super';
+    src: url('../fonts/Super\ Cedar\ Personal\ Use.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'jumper';
+    src: url('../fonts/JumperPERSONALUSEONLY-BoldItalic.ttf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo inteiro*/
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+/*Cabeçalho*/
+header {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+header h1 {
+    font-style: italic;
+    font-family: 'classica';
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-shadow: 2px 1px 3px #cccccc8e;
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    font-family: 'classica';
+    margin-bottom: 13px;
+    font-size: 30px;
+    text-shadow: 2px 1px 3px #cccccc4f;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-shadow: 0 0 2px #ccc;
+}
+
+.tecnico:hover, .dev:hover, .contato:hover {
+    font-size: 40px;
+}
+
+.tecnico:hover {
+    color: #FFAA00;
+}
+
+.dev:hover {
+    color: #AD0626;
+}
+
+.contato:hover {
+    color: #3D182B;
+}
+
+/*section*/
+section#meio {
+    background-color: #FFAA00;
+    width: 300px;
+    margin-top: 50px;
+    margin-left: 520px;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+section h1 {
+    font-family: 'jumper';
+    font-size: 35px;
+    text-shadow: 1px 1px 4px #d1d1d1d3;
+}
+
+.apresentacao {
+    background-color: #FFAA00;
+    color: black;
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 400px;
+    border-radius: 10px;
+    padding: 15px;
+}
+div#cont {
+    text-transform: uppercase;
+    background-image: linear-gradient(to left, purple, rgb(113, 4, 255), blue, orange, red);
+    border-radius: 8px;
+    padding: 5px;
+    text-shadow: 0 0 3px white;
+}
+
+div#cont:hover {
+    background-image: linear-gradient(to left, rgb(82, 0, 82), rgb(46, 0, 105), rgb(0, 0, 128), rgb(124, 81, 0), rgb(122, 1, 1));
+    color: white;
+}
+
+.linkcont {
+    color: black;
+}
+
+.linkcont:hover {
+    color: white;
+}
+
+/*Botão de voltar*/
+.back {
+    margin-left: 645px;
+    margin-top: 20px;
+    width: 60px;
+}
+
+.back:hover {
+    width: 70px;
+}

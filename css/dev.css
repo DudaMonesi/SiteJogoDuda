@@ -1,0 +1,115 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'classica';
+    src: url('../fonts/Classica-Bold.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'super';
+    src: url('../fonts/Super\ Cedar\ Personal\ Use.ttf') format('opentype');
+}
+@font-face {
+    font-family: 'jumper';
+    src: url('../fonts/JumperPERSONALUSEONLY-BoldItalic.ttf') format('opentype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*Corpo inteiro*/
+body {
+    background-color: rgb(20, 20, 20);
+}
+
+/*Cabeçalho*/
+header {
+    background-color: rgb(48, 48, 48);
+    color: white;
+}
+
+header h1 {
+    font-style: italic;
+    font-family: 'classica';
+    text-align: center;
+    padding-top: 10px;
+    margin-bottom: 20px;
+    font-size: 60px;
+    text-shadow: 2px 1px 3px #cccccc8e;
+    text-decoration: underline;
+}
+
+section {
+    text-align: center;
+}
+
+div {
+    display: inline-block;
+    font-family: 'super';
+    margin-bottom: 13px;
+    font-size: 30px;
+    text-shadow: 2px 1px 3px #cccccc4f;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-shadow: 0 0 2px #ccc;
+}
+
+.tecnico:hover, .dev:hover, .contato:hover {
+    font-size: 40px;
+}
+
+.tecnico:hover {
+    color: #FFAA00;
+}
+
+.dev:hover {
+    color: #AD0626;
+}
+
+.contato:hover {
+    color: #3D182B;
+}
+
+/*Apresentação*/
+main {
+    background-color: #FFAA00;
+    color: black;
+    margin-top: 100px;
+    width: 600px;
+    margin-left: 400px;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+main h1 {
+    text-align: center;
+    font-family: 'jumper';
+    text-shadow: 1px 1px 5px rgb(61, 61, 61);
+    font-size: 45px;
+}
+
+main p {
+    font-family: 'classica';
+    text-indent: 20px;
+    text-align: justify;
+    text-shadow: 1px 1px 5px rgba(61, 61, 61, 0.452);
+    font-size: 20px;
+}
+
+/*Botão de voltar*/
+.back {
+    margin-left: 667px;
+    margin-top: 20px;
+    width: 60px;
+}
+
+.back:hover {
+    width: 70px;
+}
