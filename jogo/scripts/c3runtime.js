@@ -4354,6 +4354,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Sprite.Acts.Destroy,
 		C3.Plugins.Sprite.Acts.SubInstanceVar,
 		C3.Plugins.Sprite.Cnds.CompareInstanceVar,
+		C3.Plugins.Audio.Acts.StopAll,
 		C3.Plugins.Keyboard.Cnds.OnKey
 	];
 };
